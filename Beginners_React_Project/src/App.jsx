@@ -1,10 +1,11 @@
-import Counter from "./Components/counter"
-
+import Counter from "./Components/Counter/counter"
+import Todo from "./Components/Todos/Todo.jsx"
 function App() {
 
   return (
     <>
-    <Counter/>
+    {/* <Counter/> */}
+    <Todo/>
     </>
   )
 }

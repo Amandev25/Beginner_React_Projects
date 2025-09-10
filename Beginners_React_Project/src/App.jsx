@@ -1,3 +1,4 @@
+import Calculator from "./Components/Calculator/Calculator.jsx"
 import Meals from "./Components/Meals/Meals.jsx"
 import Todo from "./Components/Todos/Todo.jsx"
 function App() {
@@ -6,7 +7,8 @@ function App() {
     <>
     {/* <Counter/> */}
     
-    <Meals/>
+    {/* <Meals/> */}
+    <Calculator/>
     </>
   )
 }
